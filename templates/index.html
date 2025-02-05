@@ -3,5 +3,11 @@
 {% block title %}Bienvenido{% endblock %}
 
 {% block content %}
-  <h1>Página de portalofio</h1>
+
+  <!-- Incluir menú de navegación -->
+  {% include 'nav.html'%}
+
+  <!-- Incluir Bienvenida -->
+  {% include 'home.html'%}
+
 {% endblock %}
