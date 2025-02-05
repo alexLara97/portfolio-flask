@@ -1,0 +1,35 @@
+<section class="container p-5" id="portfolio">
+  <h2 class="text-center">Mis proyectos</h2>
+  <hr class="mb-5">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div class="col">
+      <div class="card">
+        <img src="{{ url_for('static', filename='img/todo-list.png') }}" alt="Imagen del proyecto"
+             class="d-block mx-lg-auto img-fluid">
+
+        <div class="card-body">
+          <h5 class="card-title">Lista de tarea - Flask</h5>
+          <p class="card-text">Este es un proyecto de gestión de lista de tareas</p>
+          <a href="#">Link aquí.</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="{{ url_for('static', filename='img/api-contact.png') }}" alt="Imagen del proyecto"
+             class="d-block mx-lg-auto">
+
+        <div class="card-body">
+          <h5 class="card-title">Api Contactos - Flask</h5>
+          <p class="card-text">Este es un proyecto de tipo API Rest para administrar una lista de contactos</p>
+          <a href="#">Link aquí.</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Agrega más tarjetas de proyectos si lo deseas -->
+
+  </div>
+</section>
